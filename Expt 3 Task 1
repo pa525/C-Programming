@@ -9,7 +9,6 @@ int main() {
     float a, b, result;
 
 start:  // Label for goto
-
     printf("\n===== MENU DRIVEN CALCULATOR =====\n");
     printf("1. Addition\n");
     printf("2. Subtraction\n");
@@ -24,7 +23,6 @@ start:  // Label for goto
         printf("Exiting...");
         return 0;
     }
-
     printf("Enter first number: ");
     scanf("%f", &a);
     printf("Enter second number: ");
@@ -58,7 +56,6 @@ start:  // Label for goto
         default:
             printf("Invalid choice! Please try again.\n");
     }
-
     goto start;  // Repeat menu
 
     return 0;
